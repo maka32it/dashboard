@@ -1,0 +1,15 @@
+@import '../../styles//variables.scss';
+.chart{
+    flex: 4;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+    color:$text-gray;
+
+    .title{
+        margin-bottom: 10px;
+    }
+
+    .chartGrid{
+        stroke:$text-gray;
+    }
+}

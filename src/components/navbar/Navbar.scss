@@ -1,0 +1,53 @@
+@import '../../styles//variables.scss';
+.navbar{
+    height: 50px;
+    border-bottom:  .5px solid $blue;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color:#555;
+
+    .wrapper{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .search{
+            display: flex;
+            align-items: center;
+            padding: 3px;
+            border: .5px solid #555;
+
+            input{
+                border:none;
+                outline: none;
+                background: transparent;
+            }
+        }
+        .items{
+            display: flex;
+            align-items: center;
+
+            .item{
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+
+                .icon{
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+
+                .avatar{
+                    height: 35px;
+                    width: 35px;
+                    border-radius: 50%;
+
+                }
+            }
+            
+        }
+    }
+}

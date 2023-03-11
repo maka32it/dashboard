@@ -1,0 +1,61 @@
+@import './variables.scss';
+.dark{
+    background-color:$dark ;
+    color: $text-gray;
+
+    .table{
+        background-color: $dark;
+
+        .tableCell{
+            color:$text-gray;
+        }
+    }
+    .navbar{
+        color:$text-gray;
+        border-color: $lightBlue;
+
+        .search{
+            border-color: $lightBlue; 
+            .searchIcon{
+                color:$lightBlue;
+            }
+        }
+    }
+
+    .sidebar{
+        background-color: $dark;
+        border-color:$lightBlue;
+        .top{
+            border-color:$lightBlue;
+            .logo{
+                color:$lightBlue;
+            }
+
+        }
+        ul{
+            li{
+                &:hover{
+                    background-color: $gray;
+                }
+                .icons{
+                    color:$lightBlue;
+                }
+            }
+        }
+    }
+
+    .dataTable{
+        .dataGrid{
+            color:$text-gray;
+            border: none;
+
+            .viewButton,.deleteButton,.cellWithStatus{
+                color:$gray;
+                border: none;
+            }
+        }
+    }
+    input{
+        background-color: transparent;
+    }
+}
